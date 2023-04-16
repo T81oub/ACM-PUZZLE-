@@ -3,7 +3,7 @@
 
 Welcome to Chbayeh's Coding Puzzle Game, a fun and mysterious way to solve coding problems! This game was created to encourage Eniso freshman students to improve their coding skills in a fun and engaging way. In this game, you'll follow the story of Chbaih the ghost as he guides you through 5 challenging puzzles that will test your coding abilities. Once you've completed all 5 puzzles, you'll unlock a final puzzle based on Chbayeh's stories.
 
-![Screenshot 1](/path/to/Chbayeh.png)
+![Screenshot 1](Chbayeh.png)
 
 ## How to Play
 To play the game, simply follow these steps:
