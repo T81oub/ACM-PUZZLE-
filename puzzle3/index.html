@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/ACM.png" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="stylespage.css">
+
+        <title>PUZZLE 3</title>
+    </head>
+    <body>
+        
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://www.facebook.com/groups/1475050189462937" class="nav__logo">
+                    <img src="assets/ACM.png" alt="" class="nav__logo-img">
+                    <p>ACM ENISo Club</p> 
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="https://www.facebook.com/club.acm.eniso/" class="nav__link active-link"><img src="assets/facebook.png" class="icon"></a></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://www.linkedin.com/company/club-acm-eniso/" class="nav__link"><img src="assets/linkedin.png" class="icon"></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://www.instagram.com/acm_eniso/" class="nav__link"><img src="assets/instagram.png" class="icon"></a>
+                        </li>
+
+                    
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <img src="assets/E.png" alt="img" class="shape1" />
+            <img src="assets/A.png" alt="img1" class="shape2" />
+            <img src="assets/T.png" alt="img2" class="shape3" />
+            <img src="assets/C.png" alt="img3" class="shape4" />
+            <img src="assets/chbayha.png" alt="img3" class="shape5" />
+           
+            <section class="home container" id="home">
+               
+                
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/puzzle3.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">ACM Squad</h4>
+                                        <span class="home__details-subtitle">Be part of an amazing team</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#ACM ENISo CLub</h3>
+                                    <h1 class="home__title">PUZZLE 3</h1>
+                                    <pre class="home__description">
+def function1(A):<br>
+    max = 0<br>
+    a = 0<br>
+    pour i de 0 a longeur(A)-1:<br>
+        a = a + A[i]
+        a = maximum(a, 0)
+        max = maximum(max, a)<br>
+    retourner max<br><br>
+def function2(A):<br>
+    Si longeur(A) = 0:<br>
+         retourner 0<br>
+    max = maximum(A)
+    if max &lt; 0:<br>
+        return max<br>
+    pour i de 0 a longeur(A):<br>
+        A[i] = -A[i]<br>
+    sum = function1(A)<br>
+    pour i de 0 a longeur(A):<br>
+         A[i] = -A[i]<br>
+    retourner maximum(function1(A)<br>, sommer(A) + sum)<br>
+A = [2, 1, -5, 4, -3, 1, -3, 4, -1]<br>
+output = function2(A)<br></pre>
+
+                                    <div class="home__buttons">
+                                        <form>
+                                            <input id="thmas-input-text" type="text" placeholder="enter your output here ..." class="newsletter__input">
+                                            
+                                            <input id="thmas-button" type="button" class="button" value="Go to link">
+                                        </form>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="result_box">
+                            
+                                <img img src="assets/chbayha.png">
+                            
+                            <div class="complete_text">Welcome to #puzzle3 !</div>
+                            <div class="score_text">
+                               <p>You have successfully entered puzzle 3. You did well on the previous task. Hey, I'm "Chbayha ", chbayeh's wife.You could be wondering what I'm doing, what I'm going to say, and where Chbayeh is right now. Sincerely, there are a lot of questions there. the reason I'm here is that my husband has a job in the capital of our realm, "Ghoston." so It's now my turn to tell you the hint: my spouse has repeatedly told me that following my eyes will help find the answers to every  inquiry. 
+                                Best of luck!
+                               </p>
+                            </div>
+                            <div class="buttons">
+                                <button class="start">Start Puzzle</button>
+                            </div>
+                        </div>
+                        
+                        
+                       
+            </section>
+            
+            </main>
+        <script src="index.js"></script>
+    </body>
+</html>

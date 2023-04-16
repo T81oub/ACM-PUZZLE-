@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/ACM.png" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="stylespage.css">
+
+        <title>END</title>
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+          crossorigin="anonymous"></script>
+       <script>
+    function SubForm (){
+       $.ajax({
+        url:'https://api.apispreadsheets.com/data/G0k0GCSip3inXFP2/',
+        headers: {"accessKey": "YOUR_ACCESS_KEY", "secretKey": "YOUR_ACCESS_KEY"},
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          
+          window.location.href="end.html";
+        },
+        error: function(){
+            window.location.href="end.html";
+        }
+    });
+   
+}
+</script>
+    </head>
+    <body>
+        
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://www.facebook.com/groups/1475050189462937" class="nav__logo">
+                    <img src="assets/ACM.png" alt="" class="nav__logo-img">
+                    <p>ACM ENISo Club</p> 
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="https://www.facebook.com/club.acm.eniso/" class="nav__link active-link"><img src="assets/facebook.png" class="icon"></a></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://www.linkedin.com/company/club-acm-eniso/" class="nav__link"><img src="assets/linkedin.png" class="icon"></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://www.instagram.com/acm_eniso/" class="nav__link"><img src="assets/instagram.png" class="icon"></a>
+                        </li>
+
+                    
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <img src="assets/Q.png" alt="img" class="shape1" />
+            <img src="assets/P.png" alt="img1" class="shape2" />
+            <img src="assets/J.png" alt="img2" class="shape3" />
+            <img src="assets/S.png" alt="img3" class="shape4" />
+            <img src="assets/Y.png" alt="img3" class="shape6" />
+            
+            <img src="assets/chbayha.png" alt="img3" class="shape5" />
+           
+            <section class="home container" id="home">
+               
+                
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/puzzle5.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">ACM Squad</h4>
+                                        <span class="home__details-subtitle">Be part of an amazing team</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#ACM ENISo CLub</h3>
+                                    <h1 class="home__title">PUZZLE 5</h1>
+                                    <pre class="home__description">
+a = 5
+output = a <br>
+                                    </pre>
+
+                                    <div class="home__buttons">
+                                        <form>
+                                            <input id="thmas-input-text" type="text" placeholder="enter your output here ..." class="newsletter__input">
+                                            
+                                            <input id="thmas-button" type="button" class="button" value="Go to link">
+                                        </form>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="result_box">
+                                
+                                <img img src="assets/chbayeh.png">
+                            
+                            <div class="complete_text">The last puzzle !</div>
+                            <div class="score_text">
+                                <form id="myForm" >
+                                    <input name="puzzle" type="hidden"  value="last puzzle">
+                                    <label>Full Name</label>
+                                    <br/>
+                                    <input name="full_name" />
+                                    <input name="ii" type="hidden"  value="Puzzle2">
+                                  </form>
+                                  <div class="buttons">
+                                    <button onclick="SubForm()" class="start">submit</button>
+                                  </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        
+                       
+            </section>
+            
+            </main>
+        
+    </body>
+</html>
